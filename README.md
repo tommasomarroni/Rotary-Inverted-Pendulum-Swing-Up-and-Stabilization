@@ -60,7 +60,7 @@ Control action is given by the u = -Kx that minimizes the following
 
 Control action is given by
 <p align="left"><img src="media/smc.png"></p>
-where
+where the sliding surface is given by
 <p align="left"><img src="media/sigma.png"></p>
 
 ## Issues, Limitations and Future Developments
