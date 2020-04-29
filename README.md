@@ -5,9 +5,15 @@ Swing Up and Stabilization (through LQR or SMC) of a Rotary Inverted Pendulum.
 
 [LINK](https://youtu.be/2koXcs0IhOc) to YouTube video.
 
+## Running
+
+Upload code on board with:
+```
+arduino --upload main.ino
+```
+
 ## Components
 
-Used components:
 - Rotary linear potentiometer WDD35D4-5K to measure pendulum position;
 - 12V DC motor + Incremental encoder to rotate base and measure base position;
 - Arduino Mega 2560;
@@ -15,35 +21,58 @@ Used components:
 
 ## Schematics
 
-Schematics:
 <p align="left"><img src="media/schematics.jpg"></p>
 
-##
+## Control System
 
-<p align="left"><img src="media/e.png"></p>
+### Sensoring
+
+Pendulum (phi) and base (theta) positions are measured through the encoder and potentiometer. Their derivatives are computed and then filtered through a simplified 1-dimension Kalman Filter:
 <p align="left"><img src="media/kf.png"></p>
-<p align="left"><img src="media/l.png"></p>
-<p align="left"><img src="media/lagrange.png"></p>
-<p align="left"><img src="media/linmodel.png"></p>
-<p align="left"><img src="media/lqr.png"></p>
-<p align="left"><img src="media/model.png"></p>
-<p align="left"><img src="media/sigma.png"></p>
-<p align="left"><img src="media/smc.png"></p>
-<p align="left"><img src="media/ssmodel.png"></p>
+
+### Swing Up
+
+Control action is given by
 <p align="left"><img src="media/swingup.png"></p>
+where
+<p align="left"><img src="media/e.png"></p>
 
+### Linear Quadratic Regulator (LQR)
 
+The dynamic model of the rotary inverted pendulum is given by the following equations
+<p align="left"><img src="media/model.png"></p>
+which can be derived from the application of the Euler–Lagrange equations
+<p align="left"><img src="media/lagrange.png"></p>
+to the Lagrangian
+<p align="left"><img src="media/l.png"></p>
 
+The model can be linearized
+<p align="left"><img src="media/linmodel.png"></p>
+and transformed in state space form
+<p align="left"><img src="media/ssmodel.png"></p>
 
+Motor parameters (which are not directly available) are estimated through Simulink Parameter Estimation tool: check matlab_utils/motorParamEst.m
 
+Control action is given by the u = -Kx that minimizes the following
+<p align="left"><img src="media/lqr.png"></p>
 
+### Sliding Mode Control (SMC)
 
-## Running
+Control action is given by
+<p align="left"><img src="media/smc.png"></p>
+where
+<p align="left"><img src="media/sigma.png"></p>
 
-Upload code on board with:
-```
-arduino --upload main.ino
-```
+## Issues, Limitations and Future Developments
+
+Vibrations and oscillations are caused by
+- Motor deadzone between -1.5 and 1.5 V;
+- Low resolution of pendulum angle sensor (potentiometer);
+
+Future Developments
+- Use encoder to measure pendulum angle;
+- Use motor without deadzone at low voltages;
+- Implement n-dimention Kalman Filter.
 
 ## References
 
