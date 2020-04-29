@@ -1,7 +1,7 @@
 # Rotary-Inverted-Pendulum-Swing-Up-and-Stabilization
 Swing Up and Stabilization (through LQR or SMC) of a Rotary Inverted Pendulum.
 
-<img src="media/e.png" width="40%" />
+<img src="media/e.png" style="transform: scale(0.5);" />
 <img src="media/kf.png" width="40%" />
 <img src="media/l.png" width="40%" />
 <img src="media/lagrange.png" width="40%" />
