@@ -41,14 +41,14 @@ where
 
 The dynamic model of the rotary inverted pendulum is given by the following equations
 <p align="left"><img src="media/model.png"></p>
-which can be derived from the application of the Euler–Lagrange equations <br />
+which can be derived from the application of the Euler–Lagrange equations <br /><br />
 <p align="left"><img src="media/lagrange.png"></p>
-to the Lagrangian <br />
+to the Lagrangian <br /><br />
 <p align="left"><img src="media/l.png"></p>
 
 The model can be linearized
 <p align="left"><img src="media/linmodel.png"></p>
-and transformed in state space form <br />
+and transformed in state space form <br /><br />
 <p align="left"><img src="media/ssmodel.png"></p>
 
 Motor parameters (which are not directly available) are estimated through Simulink Parameter Estimation tool: check matlab_utils/motorParamEst.m
@@ -60,7 +60,7 @@ Control action is given by the u = -Kx that minimizes the following
 
 Control action is given by
 <p align="left"><img src="media/smc.png"></p>
-where the sliding surface is given by <br />
+where the sliding surface is given by <br /><br />
 <p align="left"><img src="media/sigma.png"></p>
 
 ## Issues, Limitations and Future Developments
