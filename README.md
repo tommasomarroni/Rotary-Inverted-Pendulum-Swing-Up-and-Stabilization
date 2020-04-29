@@ -1,18 +1,18 @@
 # Rotary-Inverted-Pendulum-Swing-Up-and-Stabilization
 Swing Up and Stabilization (through LQR or SMC) of a Rotary Inverted Pendulum.
 
-<img src="media/e.png" style="width: 10%; height: 10%" />
-<img src="media/kf.png" style="width: 10%; height: 10%" />
-<img src="media/l.png" style="width: 10%; height: 10%" />
-<img src="media/lagrange.png" style="width: 10%; height: 10%" />
-<img src="media/linmodel.png" style="width: 10%; height: 10%" />
-<img src="media/lqr.png" style="width: 10%; height: 10%" />
-<img src="media/model.png" style="width: 10%; height: 10%" />
-<img src="media/sigma.png" style="width: 10%; height: 10%" />
-<img src="media/smc.png" style="width: 10%; height: 10%" />
-<img src="media/ssmodel.png" style="width: 10%; height: 10%" />
-<img src="media/swingup.png" style="width: 10%; height: 10%" />
-<img src="media/schematics.jpg" style="width: 10%; height: 10%" />
+<img src="media/e.png" style="height: 10%" />
+<img src="media/kf.png" style="height: 10%" />
+<img src="media/l.png" style="height: 10%" />
+<img src="media/lagrange.png" style="height: 10%" />
+<img src="media/linmodel.png" style="height: 10%" />
+<img src="media/lqr.png" style="height: 10%" />
+<img src="media/model.png" style="height: 10%" />
+<img src="media/sigma.png" style="height: 10%" />
+<img src="media/smc.png" style="height: 10%" />
+<img src="media/ssmodel.png" style="height: 10%" />
+<img src="media/swingup.png" style="height: 10%" />
+<img src="media/schematics.jpg" style="height: 10%" />
 
 
 
