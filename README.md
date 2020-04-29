@@ -2,17 +2,17 @@
 Swing Up and Stabilization (through LQR or SMC) of a Rotary Inverted Pendulum.
 
 <img src="media/e.png" width="40%" />
-<img src="media/kf.png" style="height: 10%" />
-<img src="media/l.png" style="height: 10%" />
-<img src="media/lagrange.png" style="height: 10%" />
-<img src="media/linmodel.png" style="height: 10%" />
-<img src="media/lqr.png" style="height: 10%" />
-<img src="media/model.png" style="height: 10%" />
-<img src="media/sigma.png" style="height: 10%" />
-<img src="media/smc.png" style="height: 10%" />
-<img src="media/ssmodel.png" style="height: 10%" />
-<img src="media/swingup.png" style="height: 10%" />
-<img src="media/schematics.jpg" style="height: 10%" />
+<img src="media/kf.png" width="40%" />
+<img src="media/l.png" width="40%" />
+<img src="media/lagrange.png" width="40%" />
+<img src="media/linmodel.png" width="40%" />
+<img src="media/lqr.png" width="40%" />
+<img src="media/model.png" width="40%" />
+<img src="media/sigma.png" width="40%" />
+<img src="media/smc.png" width="40%" />
+<img src="media/ssmodel.png" width="40%" />
+<img src="media/swingup.png" width="40%" />
+<img src="media/schematics.jpg" width="40%" />
 
 
 
