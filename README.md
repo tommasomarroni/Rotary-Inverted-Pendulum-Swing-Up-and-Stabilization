@@ -3,7 +3,7 @@ Swing Up and Stabilization (through LQR or SMC) of a Rotary Inverted Pendulum.
 
 ## Video
 
-[LINK](https://youtu.be/2koXcs0IhOc) to YouTube video.
+[Link](https://youtu.be/2koXcs0IhOc) to YouTube video.
 
 ## Running
 
