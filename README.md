@@ -27,7 +27,7 @@ arduino --upload main.ino
 
 ### Sensoring
 
-Pendulum (phi) and base (theta) positions are measured through the potentiometer and encoder, respectively. Their derivatives are computed and then filtered through a simplified 1-dimension Kalman Filter:
+Pendulum (phi) and base (theta) positions are measured through the potentiometer and encoder, respectively. Their derivatives are computed and then filtered through a simplified 1-dimensional Kalman Filter:
 <p align="left"><img src="media/kf.png"></p>
 
 ### Swing Up
@@ -72,7 +72,7 @@ Vibrations and oscillations are caused by
 Future Developments
 - Use encoder to measure pendulum angle;
 - Use motor without deadzone at low voltages;
-- Implement n-dimention Kalman Filter.
+- Implement n-dimensional Extended Kalman Filter.
 
 ## References
 
