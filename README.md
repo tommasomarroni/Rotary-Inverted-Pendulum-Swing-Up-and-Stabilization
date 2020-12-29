@@ -9,7 +9,7 @@ Simple rotary inverted pendulum with swing-up and stabilization controller (thro
 
 Upload code on board with:
 ```
-arduino --upload main.ino
+arduino --upload main.ino --port <port>
 ```
 
 ## Components
