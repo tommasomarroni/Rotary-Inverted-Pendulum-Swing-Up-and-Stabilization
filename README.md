@@ -1,5 +1,5 @@
 # Rotary Inverted Pendulum: Swing Up and Stabilization
-Simple rotary inverted pendulum with swing-up and stabilization controller (through LQR or SMC).
+A simple rotary inverted pendulum with swing-up and stabilization controller (through LQR or SMC).
 
 ## Video
 
@@ -16,8 +16,8 @@ arduino --upload main.ino --port <port>
 
 - Rotary linear potentiometer WDD35D4-5K to measure pendulum position;
 - 12V DC motor + Incremental encoder to rotate base and measure base position;
-- DFRobot Dual H-Bridge (L298N).
-- Arduino Mega 2560;
+- DFRobot Dual H-Bridge (L298N);
+- Arduino Mega 2560.
 
 ## Schematics
 
