@@ -19,9 +19,9 @@ arduino --upload main.ino --port <port>
 - DFRobot Dual H-Bridge (L298N);
 - Arduino Mega 2560.
 
-## Schematics
+<!-- ## Schematics -->
 
-<p align="left"><img src="media/schematics.jpg"></p>
+<!-- <p align="left"><img src="media/schematics.jpg"></p> -->
 
 ## Control System
 
